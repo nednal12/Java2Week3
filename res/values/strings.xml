@@ -17,6 +17,9 @@
     <string name="launchSearchButton">Search By Zip</string>
     <string name="launchImplicitButton">Open Web Browser</string>
     
+    <string name="eight_coupons">Eight Coupons</string>
+    <string name="search_by_zip">Search By Zip</string>
+    
     <string-array name="dealCategory">
         <item>Restaurants</item>
         <item>Entertainment</item>
