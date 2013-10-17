@@ -10,6 +10,7 @@ import org.json.JSONObject;
 
 import android.net.Uri;
 import android.os.Bundle;
+import android.app.ActionBar;
 import android.app.Activity;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -116,6 +117,10 @@ public class MainActivity extends Activity {
 			
 		} else
 		{
+			
+			ActionBar actionBar = getActionBar();
+		    actionBar.setDisplayHomeAsUpEnabled(true);
+		    
 			Log.i("From onCreate", "This is running");
 			_context = this;
 			setContentView(R.layout.activity_main);
